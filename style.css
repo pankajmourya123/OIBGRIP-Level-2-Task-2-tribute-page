@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding:0px 200px;
+}
+.color{
+    width: 20px;
+    height: 20px;
+    display:inline-block; 
+    border: 2px solid red;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+}
+#white{
+    background-color: white;
+}
+#yellow{
+    background-color: yellow;
+}
+#aqua{
+    background-color: aqua;
+}
+#black{
+      background-color: black;
+}
+.swicther{
+    text-align: right;
+    position: relative;
+    left:100px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.content{
+    text-align: center;
+    background-color: rgb(46,139,87,0.25);
+    box-shadow: 20px 20px 20px #96c996;
+    padding: 50px;
+    border-radius: 10px;
+   
+}
+img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+p{
+    font-size: 30px;
+    text-align: justify;       
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+     body{
+  
+   padding: 20px;
+   margin: 0px;
+  }  
+
+  .swicther{
+   position: relative;
+   left: 0px;
+  
+}
+img{
+    width: 100%;
+    height: auto;
+  
+}
+
+    }
